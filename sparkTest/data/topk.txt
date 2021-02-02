@@ -1,0 +1,6 @@
+hello world bye world
+hello hadoop bye hadoop
+hello world java web
+hadoop scala java hive
+hadoop hive redis hbase
+hello hbase java redis
