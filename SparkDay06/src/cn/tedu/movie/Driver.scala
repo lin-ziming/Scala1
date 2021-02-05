@@ -43,6 +43,10 @@ object Driver {
     val model=ALS.train(ratings,50,10,0.01)
     
     val u789Results=model.recommendProducts(789, 10)
+    
+    
+    
+    
   }
   
 }
