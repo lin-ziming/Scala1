@@ -28,7 +28,7 @@ object Driver {
     
     val sc=new SparkContext(conf)
     
-    val data=sc.textFile("e://data/u.data")
+    val data=sc.textFile("d://2008scala/sparkTest/data/u.data")
     
     val ratings=data.map { line =>
       val arr=line.split("\t")
@@ -43,10 +43,43 @@ object Driver {
     val model=ALS.train(ratings,50,10,0.01)
     
     val u789Results=model.recommendProducts(789, 10)
+    u789Results.foreach{println}
     
     
+    //------------------------------------------
+    val movieData=sc.textFile("d://2008scala/sparkTest/data/u.item")
+    val movieMap=movieData.map { line => 
+      val arr=line.split("\\|")
+      val movieId=arr(0).toInt
+      val movieName=arr(1)
+      
+      (movieId,movieName)
+    }.collectAsMap
+    
+    val u789=u789Results.map { rt => 
+      val userId=rt.user
+      val movieId=rt.product
+      val movieName=movieMap(movieId)
+      val score=rt.rating
+      (userId,movieName)
+    }
+    u789.foreach{println}
     
     
-  }
+    //练习-----------------
+    val u789Movies=ratings.filter { rt => rt.user==789 }
+                        .sortBy{rt=> -rt.rating}
+    //获取u789号用户最喜欢的前10部电影名
+    val u789Top10=u789Movies.take(10).map{rt=>movieMap(rt.product)}
+    u789Top10.foreach { println }
+    
+//    u789Movies.foreach { println }
+//    val r1=u789Movies.intersect(u789Results.map{rt=>rt.product})
+//    r1.foreach{println} 
+    
+    //第三步：模型存储
+    model.save(sc, "d://2008scala/sparkTest/rec-result")
   
+  
+  }
 }
