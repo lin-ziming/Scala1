@@ -4,16 +4,16 @@ output mode:
 0 -> multiple
 output directories:
 2 items
-D:\2008scala\SparkDay05\jars -> D:\2008scala\SparkDay05\bin
-D:\2008scala\SparkDay05\src -> D:\2008scala\SparkDay05\bin
+C:\workspace\scala1\SparkDay05\jars -> C:\workspace\scala1\SparkDay05\bin
+C:\workspace\scala1\SparkDay05\src -> C:\workspace\scala1\SparkDay05\bin
 compile options:
 8 items
 0 -> -javabootclasspath
-1 -> C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\zipfs.jar
+1 -> C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\zipfs.jar
 2 -> -javaextdirs
 3 ->  
 4 -> -bootclasspath
-5 -> D:\greenSoft\eclipse\plugins\org.scala-lang.scala-library_2.11.7.v20150622-112736-1fbce4612c.jar
+5 -> C:\greensoft\eclipse(scala插件版)\eclipse\plugins\org.scala-lang.scala-library_2.11.7.v20150622-112736-1fbce4612c.jar
 6 -> -encoding
 7 -> UTF-8
 javac options:
@@ -28,35 +28,33 @@ name hashing:
 1 items
 0 -> false
 products:
-16 items
-D:\2008scala\SparkDay05\src\cn\tedu\item\Driver.scala -> D:\2008scala\SparkDay05\bin\cn\tedu\item\Driver$$anonfun$1.class
-D:\2008scala\SparkDay05\src\cn\tedu\item\Driver.scala -> D:\2008scala\SparkDay05\bin\cn\tedu\item\Driver$$anonfun$2$$anonfun$apply$1.class
-D:\2008scala\SparkDay05\src\cn\tedu\item\Driver.scala -> D:\2008scala\SparkDay05\bin\cn\tedu\item\Driver$$anonfun$2.class
-D:\2008scala\SparkDay05\src\cn\tedu\item\Driver.scala -> D:\2008scala\SparkDay05\bin\cn\tedu\item\Driver$$anonfun$3.class
-D:\2008scala\SparkDay05\src\cn\tedu\item\Driver.scala -> D:\2008scala\SparkDay05\bin\cn\tedu\item\Driver$$typecreator1$1.class
-D:\2008scala\SparkDay05\src\cn\tedu\item\Driver.scala -> D:\2008scala\SparkDay05\bin\cn\tedu\item\Driver$$typecreator2$1.class
-D:\2008scala\SparkDay05\src\cn\tedu\item\Driver.scala -> D:\2008scala\SparkDay05\bin\cn\tedu\item\Driver$$typecreator3$1.class
-D:\2008scala\SparkDay05\src\cn\tedu\item\Driver.scala -> D:\2008scala\SparkDay05\bin\cn\tedu\item\Driver$.class
-D:\2008scala\SparkDay05\src\cn\tedu\item\Driver.scala -> D:\2008scala\SparkDay05\bin\cn\tedu\item\Driver.class
-D:\2008scala\SparkDay05\src\cn\tedu\sgd\Driver.scala -> D:\2008scala\SparkDay05\bin\cn\tedu\sgd\Driver$$anonfun$1.class
-D:\2008scala\SparkDay05\src\cn\tedu\sgd\Driver.scala -> D:\2008scala\SparkDay05\bin\cn\tedu\sgd\Driver$$anonfun$2.class
-D:\2008scala\SparkDay05\src\cn\tedu\sgd\Driver.scala -> D:\2008scala\SparkDay05\bin\cn\tedu\sgd\Driver$$anonfun$3.class
-D:\2008scala\SparkDay05\src\cn\tedu\sgd\Driver.scala -> D:\2008scala\SparkDay05\bin\cn\tedu\sgd\Driver$$anonfun$main$1.class
-D:\2008scala\SparkDay05\src\cn\tedu\sgd\Driver.scala -> D:\2008scala\SparkDay05\bin\cn\tedu\sgd\Driver$$anonfun$main$2.class
-D:\2008scala\SparkDay05\src\cn\tedu\sgd\Driver.scala -> D:\2008scala\SparkDay05\bin\cn\tedu\sgd\Driver$.class
-D:\2008scala\SparkDay05\src\cn\tedu\sgd\Driver.scala -> D:\2008scala\SparkDay05\bin\cn\tedu\sgd\Driver.class
+14 items
+C:\workspace\scala1\SparkDay05\src\cn\tedu\item\Driver.scala -> C:\workspace\scala1\SparkDay05\bin\cn\tedu\item\Driver$$anonfun$1.class
+C:\workspace\scala1\SparkDay05\src\cn\tedu\item\Driver.scala -> C:\workspace\scala1\SparkDay05\bin\cn\tedu\item\Driver$$anonfun$2$$anonfun$apply$1.class
+C:\workspace\scala1\SparkDay05\src\cn\tedu\item\Driver.scala -> C:\workspace\scala1\SparkDay05\bin\cn\tedu\item\Driver$$anonfun$2.class
+C:\workspace\scala1\SparkDay05\src\cn\tedu\item\Driver.scala -> C:\workspace\scala1\SparkDay05\bin\cn\tedu\item\Driver$$anonfun$3.class
+C:\workspace\scala1\SparkDay05\src\cn\tedu\item\Driver.scala -> C:\workspace\scala1\SparkDay05\bin\cn\tedu\item\Driver$$typecreator1$1.class
+C:\workspace\scala1\SparkDay05\src\cn\tedu\item\Driver.scala -> C:\workspace\scala1\SparkDay05\bin\cn\tedu\item\Driver$$typecreator2$1.class
+C:\workspace\scala1\SparkDay05\src\cn\tedu\item\Driver.scala -> C:\workspace\scala1\SparkDay05\bin\cn\tedu\item\Driver$$typecreator3$1.class
+C:\workspace\scala1\SparkDay05\src\cn\tedu\item\Driver.scala -> C:\workspace\scala1\SparkDay05\bin\cn\tedu\item\Driver$.class
+C:\workspace\scala1\SparkDay05\src\cn\tedu\item\Driver.scala -> C:\workspace\scala1\SparkDay05\bin\cn\tedu\item\Driver.class
+C:\workspace\scala1\SparkDay05\src\cn\tedu\sgd\Driver.scala -> C:\workspace\scala1\SparkDay05\bin\cn\tedu\sgd\Driver$$anonfun$1.class
+C:\workspace\scala1\SparkDay05\src\cn\tedu\sgd\Driver.scala -> C:\workspace\scala1\SparkDay05\bin\cn\tedu\sgd\Driver$$anonfun$2.class
+C:\workspace\scala1\SparkDay05\src\cn\tedu\sgd\Driver.scala -> C:\workspace\scala1\SparkDay05\bin\cn\tedu\sgd\Driver$$anonfun$3.class
+C:\workspace\scala1\SparkDay05\src\cn\tedu\sgd\Driver.scala -> C:\workspace\scala1\SparkDay05\bin\cn\tedu\sgd\Driver$.class
+C:\workspace\scala1\SparkDay05\src\cn\tedu\sgd\Driver.scala -> C:\workspace\scala1\SparkDay05\bin\cn\tedu\sgd\Driver.class
 binary dependencies:
 10 items
-D:\2008scala\SparkDay05\src\cn\tedu\item\Driver.scala -> C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar
-D:\2008scala\SparkDay05\src\cn\tedu\item\Driver.scala -> D:\2008scala\SparkDay05\jars\spark-core_2.11-2.0.1.jar
-D:\2008scala\SparkDay05\src\cn\tedu\item\Driver.scala -> D:\2008scala\SparkDay05\jars\spark-mllib_2.11-2.0.1.jar
-D:\2008scala\SparkDay05\src\cn\tedu\item\Driver.scala -> D:\2008scala\SparkDay05\jars\spark-sql_2.11-2.0.1.jar
-D:\2008scala\SparkDay05\src\cn\tedu\item\Driver.scala -> D:\greenSoft\eclipse\plugins\org.scala-lang.scala-library_2.11.7.v20150622-112736-1fbce4612c.jar
-D:\2008scala\SparkDay05\src\cn\tedu\item\Driver.scala -> D:\greenSoft\eclipse\plugins\org.scala-lang.scala-reflect_2.11.7.v20150622-112736-1fbce4612c.jar
-D:\2008scala\SparkDay05\src\cn\tedu\sgd\Driver.scala -> C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar
-D:\2008scala\SparkDay05\src\cn\tedu\sgd\Driver.scala -> D:\2008scala\SparkDay05\jars\spark-core_2.11-2.0.1.jar
-D:\2008scala\SparkDay05\src\cn\tedu\sgd\Driver.scala -> D:\2008scala\SparkDay05\jars\spark-mllib_2.11-2.0.1.jar
-D:\2008scala\SparkDay05\src\cn\tedu\sgd\Driver.scala -> D:\greenSoft\eclipse\plugins\org.scala-lang.scala-library_2.11.7.v20150622-112736-1fbce4612c.jar
+C:\workspace\scala1\SparkDay05\src\cn\tedu\item\Driver.scala -> C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar
+C:\workspace\scala1\SparkDay05\src\cn\tedu\item\Driver.scala -> C:\greensoft\eclipse(scala插件版)\eclipse\plugins\org.scala-lang.scala-library_2.11.7.v20150622-112736-1fbce4612c.jar
+C:\workspace\scala1\SparkDay05\src\cn\tedu\item\Driver.scala -> C:\greensoft\eclipse(scala插件版)\eclipse\plugins\org.scala-lang.scala-reflect_2.11.7.v20150622-112736-1fbce4612c.jar
+C:\workspace\scala1\SparkDay05\src\cn\tedu\item\Driver.scala -> C:\workspace\scala1\SparkDay05\jars\spark-core_2.11-2.0.1.jar
+C:\workspace\scala1\SparkDay05\src\cn\tedu\item\Driver.scala -> C:\workspace\scala1\SparkDay05\jars\spark-mllib_2.11-2.0.1.jar
+C:\workspace\scala1\SparkDay05\src\cn\tedu\item\Driver.scala -> C:\workspace\scala1\SparkDay05\jars\spark-sql_2.11-2.0.1.jar
+C:\workspace\scala1\SparkDay05\src\cn\tedu\sgd\Driver.scala -> C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar
+C:\workspace\scala1\SparkDay05\src\cn\tedu\sgd\Driver.scala -> C:\greensoft\eclipse(scala插件版)\eclipse\plugins\org.scala-lang.scala-library_2.11.7.v20150622-112736-1fbce4612c.jar
+C:\workspace\scala1\SparkDay05\src\cn\tedu\sgd\Driver.scala -> C:\workspace\scala1\SparkDay05\jars\spark-core_2.11-2.0.1.jar
+C:\workspace\scala1\SparkDay05\src\cn\tedu\sgd\Driver.scala -> C:\workspace\scala1\SparkDay05\jars\spark-mllib_2.11-2.0.1.jar
 direct source dependencies:
 0 items
 direct external dependencies:
@@ -74,79 +72,75 @@ inheritance internal dependencies:
 inheritance external dependencies:
 0 items
 class names:
-16 items
-D:\2008scala\SparkDay05\src\cn\tedu\item\Driver.scala -> cn.tedu.item.Driver
-D:\2008scala\SparkDay05\src\cn\tedu\item\Driver.scala -> cn.tedu.item.Driver$
-D:\2008scala\SparkDay05\src\cn\tedu\item\Driver.scala -> cn.tedu.item.Driver$$anonfun$1
-D:\2008scala\SparkDay05\src\cn\tedu\item\Driver.scala -> cn.tedu.item.Driver$$anonfun$2
-D:\2008scala\SparkDay05\src\cn\tedu\item\Driver.scala -> cn.tedu.item.Driver$$anonfun$2$$anonfun$apply$1
-D:\2008scala\SparkDay05\src\cn\tedu\item\Driver.scala -> cn.tedu.item.Driver$$anonfun$3
-D:\2008scala\SparkDay05\src\cn\tedu\item\Driver.scala -> cn.tedu.item.Driver$$typecreator1$1
-D:\2008scala\SparkDay05\src\cn\tedu\item\Driver.scala -> cn.tedu.item.Driver$$typecreator2$1
-D:\2008scala\SparkDay05\src\cn\tedu\item\Driver.scala -> cn.tedu.item.Driver$$typecreator3$1
-D:\2008scala\SparkDay05\src\cn\tedu\sgd\Driver.scala -> cn.tedu.sgd.Driver
-D:\2008scala\SparkDay05\src\cn\tedu\sgd\Driver.scala -> cn.tedu.sgd.Driver$
-D:\2008scala\SparkDay05\src\cn\tedu\sgd\Driver.scala -> cn.tedu.sgd.Driver$$anonfun$1
-D:\2008scala\SparkDay05\src\cn\tedu\sgd\Driver.scala -> cn.tedu.sgd.Driver$$anonfun$2
-D:\2008scala\SparkDay05\src\cn\tedu\sgd\Driver.scala -> cn.tedu.sgd.Driver$$anonfun$3
-D:\2008scala\SparkDay05\src\cn\tedu\sgd\Driver.scala -> cn.tedu.sgd.Driver$$anonfun$main$1
-D:\2008scala\SparkDay05\src\cn\tedu\sgd\Driver.scala -> cn.tedu.sgd.Driver$$anonfun$main$2
+14 items
+C:\workspace\scala1\SparkDay05\src\cn\tedu\item\Driver.scala -> cn.tedu.item.Driver
+C:\workspace\scala1\SparkDay05\src\cn\tedu\item\Driver.scala -> cn.tedu.item.Driver$
+C:\workspace\scala1\SparkDay05\src\cn\tedu\item\Driver.scala -> cn.tedu.item.Driver$$anonfun$1
+C:\workspace\scala1\SparkDay05\src\cn\tedu\item\Driver.scala -> cn.tedu.item.Driver$$anonfun$2
+C:\workspace\scala1\SparkDay05\src\cn\tedu\item\Driver.scala -> cn.tedu.item.Driver$$anonfun$2$$anonfun$apply$1
+C:\workspace\scala1\SparkDay05\src\cn\tedu\item\Driver.scala -> cn.tedu.item.Driver$$anonfun$3
+C:\workspace\scala1\SparkDay05\src\cn\tedu\item\Driver.scala -> cn.tedu.item.Driver$$typecreator1$1
+C:\workspace\scala1\SparkDay05\src\cn\tedu\item\Driver.scala -> cn.tedu.item.Driver$$typecreator2$1
+C:\workspace\scala1\SparkDay05\src\cn\tedu\item\Driver.scala -> cn.tedu.item.Driver$$typecreator3$1
+C:\workspace\scala1\SparkDay05\src\cn\tedu\sgd\Driver.scala -> cn.tedu.sgd.Driver
+C:\workspace\scala1\SparkDay05\src\cn\tedu\sgd\Driver.scala -> cn.tedu.sgd.Driver$
+C:\workspace\scala1\SparkDay05\src\cn\tedu\sgd\Driver.scala -> cn.tedu.sgd.Driver$$anonfun$1
+C:\workspace\scala1\SparkDay05\src\cn\tedu\sgd\Driver.scala -> cn.tedu.sgd.Driver$$anonfun$2
+C:\workspace\scala1\SparkDay05\src\cn\tedu\sgd\Driver.scala -> cn.tedu.sgd.Driver$$anonfun$3
 used names:
 0 items
 product stamps:
-16 items
-D:\2008scala\SparkDay05\bin\cn\tedu\item\Driver$$anonfun$1.class -> lastModified(1612486949660)
-D:\2008scala\SparkDay05\bin\cn\tedu\item\Driver$$anonfun$2$$anonfun$apply$1.class -> lastModified(1612486949668)
-D:\2008scala\SparkDay05\bin\cn\tedu\item\Driver$$anonfun$2.class -> lastModified(1612486949665)
-D:\2008scala\SparkDay05\bin\cn\tedu\item\Driver$$anonfun$3.class -> lastModified(1612486949672)
-D:\2008scala\SparkDay05\bin\cn\tedu\item\Driver$$typecreator1$1.class -> lastModified(1612486949679)
-D:\2008scala\SparkDay05\bin\cn\tedu\item\Driver$$typecreator2$1.class -> lastModified(1612486949682)
-D:\2008scala\SparkDay05\bin\cn\tedu\item\Driver$$typecreator3$1.class -> lastModified(1612486949686)
-D:\2008scala\SparkDay05\bin\cn\tedu\item\Driver$.class -> lastModified(1612486949648)
-D:\2008scala\SparkDay05\bin\cn\tedu\item\Driver.class -> lastModified(1612486949510)
-D:\2008scala\SparkDay05\bin\cn\tedu\sgd\Driver$$anonfun$1.class -> lastModified(1612343053843)
-D:\2008scala\SparkDay05\bin\cn\tedu\sgd\Driver$$anonfun$2.class -> lastModified(1612343053845)
-D:\2008scala\SparkDay05\bin\cn\tedu\sgd\Driver$$anonfun$3.class -> lastModified(1612343053849)
-D:\2008scala\SparkDay05\bin\cn\tedu\sgd\Driver$$anonfun$main$1.class -> lastModified(1612343053874)
-D:\2008scala\SparkDay05\bin\cn\tedu\sgd\Driver$$anonfun$main$2.class -> lastModified(1612343053877)
-D:\2008scala\SparkDay05\bin\cn\tedu\sgd\Driver$.class -> lastModified(1612343053838)
-D:\2008scala\SparkDay05\bin\cn\tedu\sgd\Driver.class -> lastModified(1612343053832)
+14 items
+C:\workspace\scala1\SparkDay05\bin\cn\tedu\item\Driver$$anonfun$1.class -> lastModified(1613310077926)
+C:\workspace\scala1\SparkDay05\bin\cn\tedu\item\Driver$$anonfun$2$$anonfun$apply$1.class -> lastModified(1613310077934)
+C:\workspace\scala1\SparkDay05\bin\cn\tedu\item\Driver$$anonfun$2.class -> lastModified(1613310077931)
+C:\workspace\scala1\SparkDay05\bin\cn\tedu\item\Driver$$anonfun$3.class -> lastModified(1613310077937)
+C:\workspace\scala1\SparkDay05\bin\cn\tedu\item\Driver$$typecreator1$1.class -> lastModified(1613310077943)
+C:\workspace\scala1\SparkDay05\bin\cn\tedu\item\Driver$$typecreator2$1.class -> lastModified(1613310077946)
+C:\workspace\scala1\SparkDay05\bin\cn\tedu\item\Driver$$typecreator3$1.class -> lastModified(1613310077950)
+C:\workspace\scala1\SparkDay05\bin\cn\tedu\item\Driver$.class -> lastModified(1613310077917)
+C:\workspace\scala1\SparkDay05\bin\cn\tedu\item\Driver.class -> lastModified(1613310077865)
+C:\workspace\scala1\SparkDay05\bin\cn\tedu\sgd\Driver$$anonfun$1.class -> lastModified(1613310077962)
+C:\workspace\scala1\SparkDay05\bin\cn\tedu\sgd\Driver$$anonfun$2.class -> lastModified(1613310077965)
+C:\workspace\scala1\SparkDay05\bin\cn\tedu\sgd\Driver$$anonfun$3.class -> lastModified(1613310077969)
+C:\workspace\scala1\SparkDay05\bin\cn\tedu\sgd\Driver$.class -> lastModified(1613310077958)
+C:\workspace\scala1\SparkDay05\bin\cn\tedu\sgd\Driver.class -> lastModified(1613310077953)
 source stamps:
 2 items
-D:\2008scala\SparkDay05\src\cn\tedu\item\Driver.scala -> hash(f77e81a53ee8a9e85303c31bae097c4c536874ea)
-D:\2008scala\SparkDay05\src\cn\tedu\sgd\Driver.scala -> hash(9f8fa50e74acd6fe74b821dffbaac790b3eaf511)
+C:\workspace\scala1\SparkDay05\src\cn\tedu\item\Driver.scala -> hash(1001311605d0d4687304e3469fef1003f952e292)
+C:\workspace\scala1\SparkDay05\src\cn\tedu\sgd\Driver.scala -> hash(757e924cdd7c7e0b15c787943b99a629f0844091)
 binary stamps:
 6 items
-C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar -> lastModified(1554198773756)
-D:\2008scala\SparkDay05\jars\spark-core_2.11-2.0.1.jar -> lastModified(1611886375141)
-D:\2008scala\SparkDay05\jars\spark-mllib_2.11-2.0.1.jar -> lastModified(1611886375155)
-D:\2008scala\SparkDay05\jars\spark-sql_2.11-2.0.1.jar -> lastModified(1611886375169)
-D:\greenSoft\eclipse\plugins\org.scala-lang.scala-library_2.11.7.v20150622-112736-1fbce4612c.jar -> lastModified(1443157998000)
-D:\greenSoft\eclipse\plugins\org.scala-lang.scala-reflect_2.11.7.v20150622-112736-1fbce4612c.jar -> lastModified(1443157998000)
+C:\greensoft\eclipse(scala插件版)\eclipse\plugins\org.scala-lang.scala-library_2.11.7.v20150622-112736-1fbce4612c.jar -> lastModified(1443157998000)
+C:\greensoft\eclipse(scala插件版)\eclipse\plugins\org.scala-lang.scala-reflect_2.11.7.v20150622-112736-1fbce4612c.jar -> lastModified(1443157998000)
+C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar -> lastModified(1599146840466)
+C:\workspace\scala1\SparkDay05\jars\spark-core_2.11-2.0.1.jar -> lastModified(1613302359494)
+C:\workspace\scala1\SparkDay05\jars\spark-mllib_2.11-2.0.1.jar -> lastModified(1613302362241)
+C:\workspace\scala1\SparkDay05\jars\spark-sql_2.11-2.0.1.jar -> lastModified(1613302363626)
 class names:
 6 items
-C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar -> java.lang.Object
-D:\2008scala\SparkDay05\jars\spark-core_2.11-2.0.1.jar -> org.apache.spark.SparkConf
-D:\2008scala\SparkDay05\jars\spark-mllib_2.11-2.0.1.jar -> org.apache.spark.ml.feature.VectorAssembler
-D:\2008scala\SparkDay05\jars\spark-sql_2.11-2.0.1.jar -> org.apache.spark.sql.SQLContext
-D:\greenSoft\eclipse\plugins\org.scala-lang.scala-library_2.11.7.v20150622-112736-1fbce4612c.jar -> scala.collection.immutable.StringLike
-D:\greenSoft\eclipse\plugins\org.scala-lang.scala-reflect_2.11.7.v20150622-112736-1fbce4612c.jar -> scala.reflect.api.Mirrors
+C:\greensoft\eclipse(scala插件版)\eclipse\plugins\org.scala-lang.scala-library_2.11.7.v20150622-112736-1fbce4612c.jar -> scala.Int
+C:\greensoft\eclipse(scala插件版)\eclipse\plugins\org.scala-lang.scala-reflect_2.11.7.v20150622-112736-1fbce4612c.jar -> scala.reflect.api.TypeTags
+C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar -> java.lang.Object
+C:\workspace\scala1\SparkDay05\jars\spark-core_2.11-2.0.1.jar -> org.apache.spark.SparkContext
+C:\workspace\scala1\SparkDay05\jars\spark-mllib_2.11-2.0.1.jar -> org.apache.spark.mllib.regression.LinearRegressionWithSGD$
+C:\workspace\scala1\SparkDay05\jars\spark-sql_2.11-2.0.1.jar -> org.apache.spark.sql.Dataset
 internal apis:
 2 items
-D:\2008scala\SparkDay05\src\cn\tedu\item\Driver.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDqbYiIAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+ABV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAATY24udGVkdS5pdGVtLkRyaXZlcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbDuRTxH0RUzJAgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4ALgFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AFUwACWluaGVyaXRlZHEAfgAVTAAHcGFyZW50c3EAfgAVeHEAfgA1c3EAfgAuAXVxAH4AEAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AFnEAfgAgdXEAfgAhAAAAAHNxAH4AIwB0AARtYWludXEAfgAmAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4AHEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+ADR0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgA0c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4AHHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgBRdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+ABxMAAN0cGVxAH4APXhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AKXQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4ARVsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4ANHNxAH4ARHQABUFycmF5cQB+AEp1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4ARHQABlN0cmluZ3NxAH4ASHNxAH4AS3VxAH4ATgAAAANzcQB+AFB0AARqYXZhc3EAfgBQdAAEbGFuZ3EAfgBVcHNxAH4ALgF1cQB+ABAAAAAAcHNxAH4ALgF1cQB+AGkAAAACc3EAfgBEdAAGT2JqZWN0cQB+AG1zcQB+AER0AANBbnlxAH4ASnBwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAANzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4AHHhwdAAHY24udGVkdXNxAH4AfnQADGNuLnRlZHUuaXRlbXNxAH4AfnQAAmNuc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAF3b7Yro3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAACc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4AHEwAD3NvdXJjZURpcmVjdG9yeXEAfgAceHB0ABtEOlwyMDA4c2NhbGFcU3BhcmtEYXkwNVxiaW50ABtEOlwyMDA4c2NhbGFcU3BhcmtEYXkwNVxzcmNzcQB+AIp0ABtEOlwyMDA4c2NhbGFcU3BhcmtEYXkwNVxiaW50ABxEOlwyMDA4c2NhbGFcU3BhcmtEYXkwNVxqYXJzdXIAAltCrPMX+AYIVOACAAB4cAAAABT3foGlPuip6FMDwxuuCXxMU2h06g==
-D:\2008scala\SparkDay05\src\cn\tedu\sgd\Driver.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHD3GX9xAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+ABV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAASY24udGVkdS5zZ2QuRHJpdmVydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsO5FPEfRFTMkCAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgAuAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgAVTAAJaW5oZXJpdGVkcQB+ABVMAAdwYXJlbnRzcQB+ABV4cQB+ADVzcQB+AC4BdXEAfgAQAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgAWcQB+ACB1cQB+ACEAAAAAc3EAfgAjAHQABG1haW51cQB+ACYAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAcTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4ANHQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+ADRzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAceHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AFF1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4AHEwAA3RwZXEAfgA9eHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgApdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgBFWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgA0c3EAfgBEdAAFQXJyYXlxAH4ASnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBEdAAGU3RyaW5nc3EAfgBIc3EAfgBLdXEAfgBOAAAAA3NxAH4AUHQABGphdmFzcQB+AFB0AARsYW5ncQB+AFVwc3EAfgAuAXVxAH4AEAAAAABwc3EAfgAuAXVxAH4AaQAAAAJzcQB+AER0AAZPYmplY3RxAH4AbXNxAH4ARHQAA0FueXEAfgBKcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAA3NyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgAceHB0AAdjbi50ZWR1c3EAfgB+dAALY24udGVkdS5zZ2RzcQB+AH50AAJjbnNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABd2ciiUN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAnNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+ABxMAA9zb3VyY2VEaXJlY3RvcnlxAH4AHHhwdAAbRDpcMjAwOHNjYWxhXFNwYXJrRGF5MDVcYmludAAbRDpcMjAwOHNjYWxhXFNwYXJrRGF5MDVcc3Jjc3EAfgCKdAAbRDpcMjAwOHNjYWxhXFNwYXJrRGF5MDVcYmludAAcRDpcMjAwOHNjYWxhXFNwYXJrRGF5MDVcamFyc3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUn4+lDnSs1v50uCHf+6rHkLPq9RE=
+C:\workspace\scala1\SparkDay05\src\cn\tedu\item\Driver.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDqbYiIAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+ABV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAATY24udGVkdS5pdGVtLkRyaXZlcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbDuRTxH0RUzJAgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AC94cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AC4AcHNxAH4AM3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgAVTAAJaW5oZXJpdGVkcQB+ABVMAAdwYXJlbnRzcQB+ABV4cQB+ADdzcQB+AC4AcHNxAH4AM3VxAH4AEAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AFnEAfgAgdXEAfgAhAAAAAHNxAH4AIwB0AARtYWludXEAfgAmAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4AHEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+ADZ0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgA2c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4AHHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgBVdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+ABxMAAN0cGVxAH4AQXhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AKXQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4ASVsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4ANnNxAH4ASHQABUFycmF5cQB+AE51cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4ASHQABlN0cmluZ3NxAH4ATHNxAH4AT3VxAH4AUgAAAANzcQB+AFR0AARqYXZhc3EAfgBUdAAEbGFuZ3EAfgBZc3EAfgAuAHBzcQB+ADN1cQB+ABAAAAAAc3EAfgAuAHBzcQB+ADN1cQB+AG0AAAACc3EAfgBIdAAGT2JqZWN0cQB+AHFzcQB+AEh0AANBbnlxAH4ATnVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAADc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+ABx4cHQAB2NuLnRlZHVzcQB+AIR0AAxjbi50ZWR1Lml0ZW1zcQB+AIR0AAJjbnNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABd6DGIKR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAnNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+ABxMAA9zb3VyY2VEaXJlY3RvcnlxAH4AHHhwdAAiQzpcd29ya3NwYWNlXHNjYWxhMVxTcGFya0RheTA1XGJpbnQAIkM6XHdvcmtzcGFjZVxzY2FsYTFcU3BhcmtEYXkwNVxzcmNzcQB+AJB0ACJDOlx3b3Jrc3BhY2Vcc2NhbGExXFNwYXJrRGF5MDVcYmludAAjQzpcd29ya3NwYWNlXHNjYWxhMVxTcGFya0RheTA1XGphcnN1cgACW0Ks8xf4BghU4AIAAHhwAAAAFBABMRYF0NRocwTjRp/vEAP5UuKS
+C:\workspace\scala1\SparkDay05\src\cn\tedu\sgd\Driver.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHD3GX9xAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+ABV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAASY24udGVkdS5zZ2QuRHJpdmVydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsO5FPEfRFTMkCAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgAuAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgAVTAAJaW5oZXJpdGVkcQB+ABVMAAdwYXJlbnRzcQB+ABV4cQB+ADVzcQB+AC4BdXEAfgAQAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgAWcQB+ACB1cQB+ACEAAAAAc3EAfgAjAHQABG1haW51cQB+ACYAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAcTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4ANHQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+ADRzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAceHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AFF1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4AHEwAA3RwZXEAfgA9eHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgApdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgBFWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgA0c3EAfgBEdAAFQXJyYXlxAH4ASnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBEdAAGU3RyaW5nc3EAfgBIc3EAfgBLdXEAfgBOAAAAA3NxAH4AUHQABGphdmFzcQB+AFB0AARsYW5ncQB+AFVwc3EAfgAuAXVxAH4AEAAAAABwc3EAfgAuAXVxAH4AaQAAAAJzcQB+AER0AAZPYmplY3RxAH4AbXNxAH4ARHQAA0FueXEAfgBKcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAA3NyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgAceHB0AAdjbi50ZWR1c3EAfgB+dAALY24udGVkdS5zZ2RzcQB+AH50AAJjbnNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABd6DGIKR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAnNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+ABxMAA9zb3VyY2VEaXJlY3RvcnlxAH4AHHhwdAAiQzpcd29ya3NwYWNlXHNjYWxhMVxTcGFya0RheTA1XGJpbnQAIkM6XHdvcmtzcGFjZVxzY2FsYTFcU3BhcmtEYXkwNVxzcmNzcQB+AIp0ACJDOlx3b3Jrc3BhY2Vcc2NhbGExXFNwYXJrRGF5MDVcYmludAAjQzpcd29ya3NwYWNlXHNjYWxhMVxTcGFya0RheTA1XGphcnN1cgACW0Ks8xf4BghU4AIAAHhwAAAAFHV+kkzdfH4LFceHlDuZpinwhECR
 external apis:
 0 items
 source infos:
 2 items
-D:\2008scala\SparkDay05\src\cn\tedu\item\Driver.scala -> 
+C:\workspace\scala1\SparkDay05\src\cn\tedu\item\Driver.scala -> 
 AAAAAAAAAAA=
-D:\2008scala\SparkDay05\src\cn\tedu\sgd\Driver.scala -> 
+C:\workspace\scala1\SparkDay05\src\cn\tedu\sgd\Driver.scala -> 
 AAAAAAAAAAA=
 compilations:
-28 items
+30 items
 00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABd2XJ2Ot1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAnNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAG0Q6XDIwMDhzY2FsYVxTcGFya0RheTA1XGJpbnQAG0Q6XDIwMDhzY2FsYVxTcGFya0RheTA1XHNyY3NxAH4ABXQAG0Q6XDIwMDhzY2FsYVxTcGFya0RheTA1XGJpbnQAHEQ6XDIwMDhzY2FsYVxTcGFya0RheTA1XGphcnM=
 01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABd2XJ54J1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAnNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAG0Q6XDIwMDhzY2FsYVxTcGFya0RheTA1XGJpbnQAG0Q6XDIwMDhzY2FsYVxTcGFya0RheTA1XHNyY3NxAH4ABXQAG0Q6XDIwMDhzY2FsYVxTcGFya0RheTA1XGJpbnQAHEQ6XDIwMDhzY2FsYVxTcGFya0RheTA1XGphcnM=
 02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABd2XPwAx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAnNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAG0Q6XDIwMDhzY2FsYVxTcGFya0RheTA1XGJpbnQAG0Q6XDIwMDhzY2FsYVxTcGFya0RheTA1XHNyY3NxAH4ABXQAG0Q6XDIwMDhzY2FsYVxTcGFya0RheTA1XGJpbnQAHEQ6XDIwMDhzY2FsYVxTcGFya0RheTA1XGphcnM=
@@ -175,3 +169,5 @@ compilations:
 25 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABd2cEFHV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAnNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAG0Q6XDIwMDhzY2FsYVxTcGFya0RheTA1XGJpbnQAG0Q6XDIwMDhzY2FsYVxTcGFya0RheTA1XHNyY3NxAH4ABXQAG0Q6XDIwMDhzY2FsYVxTcGFya0RheTA1XGJpbnQAHEQ6XDIwMDhzY2FsYVxTcGFya0RheTA1XGphcnM=
 26 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABd2ciiUN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAnNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAG0Q6XDIwMDhzY2FsYVxTcGFya0RheTA1XGJpbnQAG0Q6XDIwMDhzY2FsYVxTcGFya0RheTA1XHNyY3NxAH4ABXQAG0Q6XDIwMDhzY2FsYVxTcGFya0RheTA1XGJpbnQAHEQ6XDIwMDhzY2FsYVxTcGFya0RheTA1XGphcnM=
 27 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABd2+2K6N1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAnNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAG0Q6XDIwMDhzY2FsYVxTcGFya0RheTA1XGJpbnQAG0Q6XDIwMDhzY2FsYVxTcGFya0RheTA1XHNyY3NxAH4ABXQAG0Q6XDIwMDhzY2FsYVxTcGFya0RheTA1XGJpbnQAHEQ6XDIwMDhzY2FsYVxTcGFya0RheTA1XGphcnM=
+28 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABd6BRDGd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAnNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAIkM6XHdvcmtzcGFjZVxzY2FsYTFcU3BhcmtEYXkwNVxiaW50ACJDOlx3b3Jrc3BhY2Vcc2NhbGExXFNwYXJrRGF5MDVcc3Jjc3EAfgAFdAAiQzpcd29ya3NwYWNlXHNjYWxhMVxTcGFya0RheTA1XGJpbnQAI0M6XHdvcmtzcGFjZVxzY2FsYTFcU3BhcmtEYXkwNVxqYXJz
+29 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABd6DGIKR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAnNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAIkM6XHdvcmtzcGFjZVxzY2FsYTFcU3BhcmtEYXkwNVxiaW50ACJDOlx3b3Jrc3BhY2Vcc2NhbGExXFNwYXJrRGF5MDVcc3Jjc3EAfgAFdAAiQzpcd29ya3NwYWNlXHNjYWxhMVxTcGFya0RheTA1XGJpbnQAI0M6XHdvcmtzcGFjZVxzY2FsYTFcU3BhcmtEYXkwNVxqYXJz
