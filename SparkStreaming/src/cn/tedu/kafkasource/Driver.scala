@@ -34,17 +34,20 @@ object Driver {
     val kafkaSource=KafkaUtils.createStream(ssc, zkHosts, groupId, topics)
                               .map{x=>x._2}
     
-    //foreachRDD是DStream的输出方法。将每
+    //foreachRDD是DStream的输出方法。将每一批次的DStream直接转为RDD进行操作
+    //后续用户可以直接对RDD进行处理，最后输出到指定的应用系统。比如存到HBase或Mysql等
     kafkaSource.foreachRDD{rdd=>
       
+      //将当前批次数据的RDD转变为迭代器
       val lines=rdd.toLocalIterator
       
+      //遍历迭代器,获取每条数据进行处理
       while(lines.hasNext){
-        
+        //获取一条数据
         val line=lines.next()
         //println(line)
         
-        //第一步：数据清洗
+        //第一步:做字段清洗。需要的字段:url  urlname uvid ssid sscount sstime cip
         val arr=line.split("\\|")
         val url=arr(0)
         val urlname=arr(1)
@@ -54,10 +57,10 @@ object Driver {
         val sstime=arr(14).split("_")(2)
         val cip=arr(15)
         
-        //第二步：将清洗出的字段封装到bean中
+        //第二步:将清洗出的字段封装到bean中
         val logBean=LogBean(url,urlname,uvid,ssid,sscount,sstime,cip)
         
-        //将bean数据存储到HBase表中
+        //将bean数据存储到HBase表中,ctrl+1
         HBaseUtil.saveToHBase(sc,logBean)
         
       }
