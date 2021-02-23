@@ -8,6 +8,15 @@ import scala.util.Random
 import org.apache.hadoop.hbase.io.ImmutableBytesWritable
 import org.apache.hadoop.mapreduce.Job
 import org.apache.hadoop.fs.shell.find.Result
+import org.apache.hadoop.hbase.HBaseConfiguration
+import org.apache.hadoop.hbase.mapreduce.TableInputFormat
+import org.apache.hadoop.hbase.client.Scan
+import org.apache.hadoop.hbase.filter.RowFilter
+import org.apache.hadoop.hbase.filter.CompareFilter.CompareOp
+import org.apache.hadoop.hbase.filter.RegexStringComparator
+import org.apache.hadoop.hbase.util.Base64
+import org.apache.hadoop.hbase.protobuf.ProtobufUtil
+import org.apache.hadoop.hbase.client.Result
 
 object HBaseUtil {
   def saveToHBase(sc: SparkContext, logBean: LogBean) = {
@@ -22,7 +31,7 @@ object HBaseUtil {
     
     job.setOutputKeyClass(classOf[ImmutableBytesWritable])
     //org.apache.hadoop.fs.shell.find.Result
-    job.setOutputValueClass(classOf[Result])
+    job.setOutputValueClass(classOf[org.apache.hadoop.fs.shell.find.Result])
     job.setOutputFormatClass(classOf[TableOutputFormat[ImmutableBytesWritable]])
     
     val r1=sc.parallelize(List(logBean))
@@ -53,5 +62,35 @@ object HBaseUtil {
     //执行写出
     hbaseRDD.saveAsNewAPIHadoopDataset(job.getConfiguration)
     
+  }
+
+  def queryHBase(sc: SparkContext, startTime: Long, endTime: Long, regex: String) = {
+  
+    val hbaseConf=HBaseConfiguration.create()
+    hbaseConf.set("hbase.zookeeper.quorum", "hadoop01,hadoop02,hadoop03")
+    hbaseConf.set("hbase.zookeeper.property.clientPort", "2181")
+    hbaseConf.set(TableInputFormat.INPUT_TABLE, "logtb")
+    
+    val scan=new Scan()
+    
+    scan.setStartRow(startTime.toString().getBytes)
+    scan.setStopRow(endTime.toString().getBytes)
+    
+    val filter=new RowFilter(CompareOp.EQUAL,new RegexStringComparator(regex))
+    //绑定过滤器使其生效
+    scan.setFilter(filter)
+    
+    //设置scan对象
+    //import org.apache.hadoop.hbase.protobuf.ProtobufUtil
+    //import org.apache.hadoop.hbase.util.Base64
+    hbaseConf.set(TableInputFormat.SCAN, 
+            Base64.encodeBytes(ProtobufUtil.toScan(scan).toByteArray()) )
+            
+    val resultRDD=sc.newAPIHadoopRDD(hbaseConf, 
+                            classOf[TableInputFormat], 
+                            classOf[ImmutableBytesWritable], 
+                            classOf[org.apache.hadoop.hbase.client.Result])
+    
+    resultRDD
   }
 }

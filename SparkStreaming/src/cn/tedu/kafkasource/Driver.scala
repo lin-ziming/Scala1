@@ -7,6 +7,9 @@ import org.apache.spark.streaming.Seconds
 import org.apache.spark.streaming.kafka.KafkaUtils
 import cn.tedu.pojo.LogBean
 import cn.tedu.dao.HBaseUtil
+import java.util.Calendar
+import cn.tedu.pojo.TongjiBean
+import cn.tedu.dao.MysqlUtil
 
 object Driver {
   def main(args: Array[String]): Unit = {
@@ -34,10 +37,10 @@ object Driver {
     val kafkaSource=KafkaUtils.createStream(ssc, zkHosts, groupId, topics)
                               .map{x=>x._2}
     
+    
     //foreachRDD是DStream的输出方法。将每一批次的DStream直接转为RDD进行操作
     //后续用户可以直接对RDD进行处理，最后输出到指定的应用系统。比如存到HBase或Mysql等
     kafkaSource.foreachRDD{rdd=>
-      
       //将当前批次数据的RDD转变为迭代器
       val lines=rdd.toLocalIterator
       
@@ -60,11 +63,66 @@ object Driver {
         //第二步:将清洗出的字段封装到bean中
         val logBean=LogBean(url,urlname,uvid,ssid,sscount,sstime,cip)
         
-        //将bean数据存储到HBase表中,ctrl+1
-        HBaseUtil.saveToHBase(sc,logBean)
+        //第三步：统计业务指标。需要统计pv uv vv newip newcust
+        //3.1 pv:用户访问一次就算作一个pv，当前没循环一次，则pv=1
+        val pv=1
         
-      }
-      
+        //3.2 uv:独立访客数。uv=1 或  uv=0
+        val endTime=sstime.toLong
+        
+        val calendar=Calendar.getInstance
+        
+        calendar.setTimeInMillis(endTime)
+        
+        calendar.set(Calendar.HOUR,0)
+        calendar.set(Calendar.MINUTE,0)
+        calendar.set(Calendar.SECOND, 0)
+        calendar.set(Calendar.MILLISECOND, 0)
+        
+        //获取当前的凌晨零点的时间戳
+        val startTime=calendar.getTimeInMillis
+        
+        //
+        //
+        val uvRegex="^\\d+_"+uvid+".*$"
+        
+        val uvResult=HBaseUtil.queryHBase(sc,startTime,endTime,uvRegex)
+        
+        val uv=if(uvResult.count()==0) 1 else 0
+        
+        //3.3 vv:独立会话数。vv=1 或  vv=0。 根据当条记录中的ssid,去HBase表查询。
+        //如果此ssid在当天的记录中已经出现过，则vv=0,反之vv=1
+        
+        val vvRegex="^\\d+_\\d+_"+ssid+".*$"
+        
+        val vvResult=HBaseUtil.queryHBase(sc, startTime, endTime, vvRegex)
+        
+        val vv=if(vvResult.count()==0) 1 else 0
+        
+        //3.4 newip:新增ip数。newip=1 或  newip=0。 根据当条记录中的cip，去HBase查询历史数据
+        //如果此cip在历史数据中从未出现过，则newip=1,反之为0
+        val ipRegex="^\\d+_\\d+_\\d+_"+cip+".*$"
+        
+        val ipResult=HBaseUtil.queryHBase(sc, 0, endTime, ipRegex)
+        
+        val newip=if(ipResult.count()==0) 1 else 0
+        
+        //3.5 newcust:新增用户数。思路同newip，根据当条记录中的uvid,去HBase查询历史数据
+        val custResult=HBaseUtil.queryHBase(sc, 0, endTime, uvRegex)
+        
+        val newcust=if(custResult==0) 1 else 0
+        
+        //打印到控制台，测试结果
+        //println("pv:"+pv+"uv:"+uv+"vv:"+vv)
+        
+        //第四步：将统计出的业务指标(pv,uv,...)封装到bean中，然后更新到mysql数据库中
+        val tongjiBean=TongjiBean(sstime,pv,uv,vv,newip,newcust)
+        
+        MysqlUtil.saveToMysql(tongjiBean)
+        
+        //将bean数据存储到HBase表中,ctrl+1
+        HBaseUtil.saveToHBase(sc,logBean) 
+      } 
     }
     
     ssc.start()
