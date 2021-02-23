@@ -85,7 +85,8 @@ object HBaseUtil {
     //import org.apache.hadoop.hbase.util.Base64
     hbaseConf.set(TableInputFormat.SCAN, 
             Base64.encodeBytes(ProtobufUtil.toScan(scan).toByteArray()) )
-            
+    
+    //执行读取，并返回结果集RDD  
     val resultRDD=sc.newAPIHadoopRDD(hbaseConf, 
                             classOf[TableInputFormat], 
                             classOf[ImmutableBytesWritable], 

@@ -64,16 +64,20 @@ object Driver {
         val logBean=LogBean(url,urlname,uvid,ssid,sscount,sstime,cip)
         
         //第三步：统计业务指标。需要统计pv uv vv newip newcust
-        //3.1 pv:用户访问一次就算作一个pv，当前没循环一次，则pv=1
+        //3.1 pv:用户访问一次就算作一个pv，当前每循环一次，则pv=1
         val pv=1
         
         //3.2 uv:独立访客数。uv=1 或  uv=0
+        //判断逻辑:根据当前记录的uvid,去HBase表查询当天的记录，
+        //如果此uvid已经出现过，则uv=0 反之uv=1
+        //难点1:如何查询HBase当天的数据。
+        //查询的startTime=当天凌晨零点的时间戳 
+        //查询的endTime=当前记录的sstime
+        
         val endTime=sstime.toLong
         
         val calendar=Calendar.getInstance
-        
         calendar.setTimeInMillis(endTime)
-        
         calendar.set(Calendar.HOUR,0)
         calendar.set(Calendar.MINUTE,0)
         calendar.set(Calendar.SECOND, 0)
@@ -82,15 +86,15 @@ object Driver {
         //获取当前的凌晨零点的时间戳
         val startTime=calendar.getTimeInMillis
         
-        //
-        //
+        //难点2:如果判断uvid在当天的hbase表是否出现过
+        //可以根据正则表达式，结合hbase的行键过滤器来实现
         val uvRegex="^\\d+_"+uvid+".*$"
         
         val uvResult=HBaseUtil.queryHBase(sc,startTime,endTime,uvRegex)
         
         val uv=if(uvResult.count()==0) 1 else 0
         
-        //3.3 vv:独立会话数。vv=1 或  vv=0。 根据当条记录中的ssid,去HBase表查询。
+        //3.3 vv:独立会话数。vv=1 或  vv=0。 根据当条记录中的ssid,去HBase表查询当天数据。
         //如果此ssid在当天的记录中已经出现过，则vv=0,反之vv=1
         
         val vvRegex="^\\d+_\\d+_"+ssid+".*$"
@@ -99,7 +103,7 @@ object Driver {
         
         val vv=if(vvResult.count()==0) 1 else 0
         
-        //3.4 newip:新增ip数。newip=1 或  newip=0。 根据当条记录中的cip，去HBase查询历史数据
+        //3.4 newip:新增ip数。newip=1 或  newip=0。 根据当条记录中的cip，去HBase查询历史数据。
         //如果此cip在历史数据中从未出现过，则newip=1,反之为0
         val ipRegex="^\\d+_\\d+_\\d+_"+cip+".*$"
         
